@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: ipq40xx/generic openwrt 21.02
+name: ipq40xx/generic-openwrt 21.02
 
 on:
   workflow_dispatch:
@@ -447,7 +447,7 @@ jobs:
         uses: ncipollo/release-action@v1.8.0
         if: env.FIRMWARE_RELEASE_UPLOAD == 'true'
         with:
-          name: openwrt-${{ env.DEVICE_TARGET }}-${{ env.DEVICE_SUBTARGET }}
+          name: ${{ env.SOURCE_BRANCH }}-${{ env.DEVICE_TARGET }}-${{ env.DEVICE_SUBTARGET }}
           allowUpdates: true
           replacesArtifacts: true
           tag: ${{ env.DEVICE_TARGET }}-${{ env.DEVICE_SUBTARGET }}
