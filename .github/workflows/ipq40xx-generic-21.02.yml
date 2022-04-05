@@ -20,7 +20,7 @@ env:
   SOURCE_URL: https://github.com/immortalwrt/immortalwrt
   SOURCE_BRANCH: openwrt-21.02
   DIY_SH: scripts/custom.sh
-  TOOLCHAIN_TAG: toolchain
+  TOOLCHAIN_TAG: toolchain-21.02
   CLASH_BINARY_PLATFORM: armv7
   TOOLCHAIN_RELEASE_UPLOAD: true
   FIRMWARE_RELEASE_UPLOAD: true
