@@ -282,7 +282,7 @@ jobs:
           [ -e files ] && mv files $OPENWRT_ROOT_PATH/files
           [ -e $CONFIG_FILE ] && mv $CONFIG_FILE $OPENWRT_ROOT_PATH/.config
           cat config/general-packages.config >> $OPENWRT_ROOT_PATH/.config
-          sed -i 's/zyxel,nbg6617/zyxel,nbg6617 | p2w,r619ac/g' $GITHUB_WORKSPACE/target/linux/ipq40xx/base-files/lib/preinit/06_set_preinit_iface_ipq40xx.sh
+          sed -i 's/zyxel,nbg6617/zyxel,nbg6617 | p2w,r619ac/g' $OPENWRT_ROOT_PATH/target/linux/ipq40xx/base-files/lib/preinit/06_set_preinit_iface_ipq40xx.sh
           cd $OPENWRT_ROOT_PATH
           chmod +x $GITHUB_WORKSPACE/scripts/*.sh
           $GITHUB_WORKSPACE/$DIY_SH
