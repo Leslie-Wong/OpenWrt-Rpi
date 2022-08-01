@@ -17,7 +17,7 @@ on:
 
 env:
   CONFIG_FILE: config/ipq40xx/generic.config
-  SOURCE_URL: https://github.com/openwrt/openwrt
+  SOURCE_URL: https://github.com/coolsnowwolf/lede
   SOURCE_BRANCH: openwrt-coolsnowwolf
   DIY_SH: scripts/custom.sh
   TOOLCHAIN_TAG: toolchain-coolsnowwolf
