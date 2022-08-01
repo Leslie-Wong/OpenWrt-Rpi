@@ -18,7 +18,7 @@ on:
 env:
   CONFIG_FILE: config/ipq40xx/generic.config
   SOURCE_URL: https://github.com/coolsnowwolf/lede
-  SOURCE_BRANCH: openwrt-coolsnowwolf
+  SOURCE_BRANCH: master
   DIY_SH: scripts/custom.sh
   TOOLCHAIN_TAG: toolchain-coolsnowwolf
   CLASH_BINARY_PLATFORM: armv7
