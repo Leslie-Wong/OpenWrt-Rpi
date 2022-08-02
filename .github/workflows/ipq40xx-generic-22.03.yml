@@ -17,7 +17,7 @@ on:
 
 env:
   CONFIG_FILE: config/ipq40xx/generic.config
-  SOURCE_URL: https://github.com/openwrt/openwrt
+  SOURCE_URL: https://github.com/Leslie-Wong/openwrt-22.03
   SOURCE_BRANCH: openwrt-22.03
   DIY_SH: scripts/custom.sh
   TOOLCHAIN_TAG: toolchain-22.03
