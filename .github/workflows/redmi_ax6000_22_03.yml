@@ -18,9 +18,9 @@ on:
 env:
   CONFIG_FILE: config/filogic/redmi_ax6000.config
   SOURCE_URL: https://github.com/x-wrt/x-wrt
-  SOURCE_BRANCH: openwrt-22.03
+  SOURCE_BRANCH: 22.03
   DIY_SH: scripts/custom.sh
-  TOOLCHAIN_TAG: toolchain-22.03
+  TOOLCHAIN_TAG: 22.03
   CLASH_BINARY_PLATFORM: armv8
   TOOLCHAIN_RELEASE_UPLOAD: true
   FIRMWARE_RELEASE_UPLOAD: true
